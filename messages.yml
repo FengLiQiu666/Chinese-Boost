@@ -31,7 +31,7 @@ player_not_found: "&4无法找到玩家 %player%&r&4"
 player_no_stats: "&4玩家 %player%&r&4 没有统计信息"
 deleted_stats: "&3玩家统计信息已删除"
 leader_board_title: "&5[平台争霸] 排行榜:"
-leader_board_entry: "%player% 胜利场数:&a%wins% 失败场数: &c%losses% 总场数: &3%games% games"
+leader_board_entry: "%player% &a胜利场数:%wins% &c失败场数:%losses% &3总场数:%games%"
 build_enabled: "%player% 建造模式开启"
 build_disabled: "%player% 建造模式关闭"
 game_not_configured: "%game%&r&4 设置错误"
@@ -61,9 +61,9 @@ display_name_mismatch: "格式错误！格式必须与 '%gameconfig%&r' 相同"
 
 player_stats:
   - "&5[平台争霸] &f玩家统计信息: %player%"
-  - "  游戏场数: &3%games%"
-  - "  胜利场数: &a%wins% wins"
-  - "  失败场数: &c%losses%"
+  - "  &3游戏场数: %games%"
+  - "  &a胜利场数: %wins%"
+  - "  &c失败场数: %losses%"
   - "  &d等级: %rank%"
 
 command_usage_user:
