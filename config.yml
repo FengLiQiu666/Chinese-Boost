@@ -1,0 +1,123 @@
+physics:
+  vertical_velocity: 2.0;
+  max_horizontal_velocity: 2.5;
+  min_horizontal_velocity: 0.1;
+  block_hit_horizontal_velocity: 2.5;
+  target_box_width: 3
+  target_box_height: 2
+
+signs:
+  title: '[平台争霸]'
+  join: '点击加入'
+  leave: '点击离开'
+  status: '查询状态'
+  stats: '统计信息'
+  top: '排行榜'
+  daily: '天'
+  weekly: '周'
+  monthly: '月'
+  total: '全部时间'
+
+SQLite: true
+sql:
+  host: 127.0.0.1
+  port: '3306'
+  database: boost
+  user: user
+  pass: password
+
+boost_worlds: [world]
+
+main_lobby:
+  world: world
+  x: 0
+  y: 64
+  z: 0
+  yaw: 0
+
+sounds:
+  tick: 'ITEM_FLINTANDSTEEL_USE'
+  join: 'UI_LOOM_SELECT_PATTERN'
+  leave: 'UI_LOOM_TAKE_RESULT'
+  start: 'ENTITY_EVOKER_PREPARE_SUMMON'
+  win: 'UI_TOAST_CHALLENGE_COMPLETE'
+  lose: 'ENTITY_GHAST_HURT'
+  boost: 'ITEM_TRIDENT_THROW'
+  boosted: 'ITEM_TRIDENT_RIPTIDE_3'
+  stats: 'ENTITY_ENDER_EYE_DEATH'
+  leader: 'ENTITY_ENDER_EYE_DEATH'
+
+gamemode:
+  playing: 'ADVENTURE'
+  lost: 'SPECTATOR'
+  lobby: 'ADVENTURE'
+
+boost_sticks:
+  random: true
+  #默认物品材质为木头
+  default: wood
+  stick_types:
+    wood:
+    #可以将它改为其他名字
+      name: '&2'
+      #物品的英文ID
+      item: 'WOODEN_HOE'
+      #Lore物品介绍
+      lore:
+      - '&5击退棒'
+      - '&2右键击退玩家'
+    stone:
+      name: '&7击退棒'
+      item: 'STONE_HOE'
+      lore:
+      - '&5击退棒'
+      - '&7右键击退玩家'
+    iron:
+      name: '&f击退棒'
+      item: 'IRON_HOE'
+      lore:
+      - '&5击退棒'
+      - '&f右键击退玩家'
+    gold:
+      name: '&6击退棒'
+      item: 'GOLDEN_HOE'
+      lore:
+      - '&5击退棒'
+      - '&6右键击退玩家'
+    diamond:
+      name: '&b击退棒'
+      item: 'DIAMOND_HOE'
+      lore:
+      - '&5击退棒'
+      - '&b右键击退玩家'
+
+games:
+  #游戏配置演示
+  Arena1:
+    name: '&aArena1'
+    ground: 64
+    target_dist: 150
+    countdown: 30
+    min_players: 2
+    max_players: 0
+    auto_queue: true
+    countdown_announce_time: 10
+    game_start:
+      world: world
+      x: 100
+      y: 64
+      z: 0
+      spread: 4
+    game_loss:
+      world: world
+      x: 0
+      y: 64
+      z: 0
+      yaw: 0
+    game_lobby:
+      world: world
+      x: 0
+      y: 64
+      z: 0
+      yaw: 0
+
