@@ -90,6 +90,7 @@ command_usage_admin:
   - "&f/boost autoqueue Arena1 [on/off] &3- 是否打开排队"
   - "&f/boost setcountdown Arena1 [time] &3- 设置游戏开始的倒计时时间"
   - "&f/boost setannouncement Arena1 [time] &3- 设置宣布倒计时的时间"
+  - "&f/boost queue * &3- Start queuing all games."
   - "&f/boost queue Arena1 &3- 开启游戏的排队"
   - "&f/boost start Arena1 &3- 强制开启游戏"
   - "&f/boost end * &3- 强制关闭当前所有游戏"
