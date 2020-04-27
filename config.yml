@@ -59,7 +59,7 @@ boost_sticks:
   stick_types:
     wood:
     #可以将它改为其他名字
-      name: '&2'
+      name: '&2击退棒'
       #物品的英文ID
       item: 'WOODEN_HOE'
       #Lore物品介绍
